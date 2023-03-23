@@ -87,4 +87,5 @@ void display()
 int main()
 {
 	input();			// memanggil input 
+	insertionsort();	// memanggil insertionsort 
 }

@@ -65,3 +65,9 @@ void insertionsort()
 		}
 	}
 };
+ 
+void display()
+{
+	cout << endl;
+	cout << "total element movement " << n - 1 << endl;		// cout movement element
+}

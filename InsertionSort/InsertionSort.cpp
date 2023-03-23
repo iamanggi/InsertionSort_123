@@ -51,7 +51,7 @@ void insertionsort()
 		while (j >= 0 && arr[j] > temp)		//4. looping while dimana nilai j lebih besar sama dengan 0 dan
 		{									// arr[j] lebih besar daripada temp
 			arr[j + 1] = arr[j];			// a. simpan arr[j + 1]
-			// b. decrement nilai j by 1
+			j--;							// b. decrement nilai j by 1
 		}
 
 		arr[j + 1] = temp;					// 5. simpan nilai temp ke dalam arr [j + 1]

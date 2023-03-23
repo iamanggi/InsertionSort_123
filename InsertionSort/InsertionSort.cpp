@@ -70,4 +70,6 @@ void display()
 {
 	cout << endl;
 	cout << "total element movement " << n - 1 << endl;		// cout movement element
+	cout << "\n=====================" << endl;				// output ke layar
+	cout << "element array yang telah tersusun" << endl;	//output ke layar
 }
